@@ -1,0 +1,667 @@
+[
+  {
+    "id": 271,
+    "slug": "zapaton-paq-50par",
+    "name": "Zapatón PAQ 50PAR",
+    "category": "descartables",
+    "images": [
+      "/images/productos/zapaton-paq-50par.jpg"
+    ]
+  },
+  {
+    "id": 269,
+    "slug": "sabana-paq-x10",
+    "name": "Sábana PAQ X10",
+    "category": "descartables",
+    "images": [
+      "/images/productos/sabana-paq-x10.jpg"
+    ]
+  },
+  {
+    "id": 267,
+    "slug": "overol-paq-x5",
+    "name": "Overol PAQ X5",
+    "category": "descartables",
+    "images": [
+      "/images/productos/overol-paq-x5.jpg"
+    ]
+  },
+  {
+    "id": 265,
+    "slug": "kit-top-y-bikini",
+    "name": "Kit top y bikini",
+    "category": "descartables",
+    "images": [
+      "/images/productos/kit-top-y-bikini.jpg"
+    ]
+  },
+  {
+    "id": 263,
+    "slug": "gorro-oruga-paq-x100",
+    "name": "Gorro oruga PAQ X100",
+    "category": "descartables",
+    "images": [
+      "/images/productos/gorro-oruga-paq-x100.jpg"
+    ]
+  },
+  {
+    "id": 261,
+    "slug": "gorro-dr-paq-x10",
+    "name": "Gorro Dr. PAQ X10",
+    "category": "descartables",
+    "images": [
+      "/images/productos/gorro-dr-paq-x10.jpg"
+    ]
+  },
+  {
+    "id": 259,
+    "slug": "bata-manga-larga-paq-x10",
+    "name": "Bata manga larga PAQ X10",
+    "category": "descartables",
+    "images": [
+      "/images/productos/bata-manga-larga-paq-x10.jpg"
+    ]
+  },
+  {
+    "id": 257,
+    "slug": "bata-manga-corta-paq-x10",
+    "name": "Bata manga corta PAQ X10",
+    "category": "descartables",
+    "images": [
+      "/images/productos/bata-manga-corta-paq-x10.jpg"
+    ]
+  },
+  {
+    "id": 255,
+    "slug": "torso-muscular",
+    "name": "Torso Muscular",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/torso-muscular.jpg"
+    ]
+  },
+  {
+    "id": 253,
+    "slug": "simulador-de-caterezacion-femenino",
+    "name": "Simulador de cateterización femenino",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/simulador-de-caterezacion-femenino.jpg"
+    ]
+  },
+  {
+    "id": 251,
+    "slug": "practicas-de-sutura-completo",
+    "name": "Prácticas de sutura completo",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/practicas-de-sutura-completo.jpg"
+    ]
+  },
+  {
+    "id": 249,
+    "slug": "practicas-de-enfermeria-masculina",
+    "name": "Prácticas de enfermería masculino",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/practicas-de-enfermeria-masculina.jpg"
+    ]
+  },
+  {
+    "id": 247,
+    "slug": "ojo-humano-pvc",
+    "name": "Ojo humano PVC",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/ojo-humano-pvc.jpg"
+    ]
+  },
+  {
+    "id": 245,
+    "slug": "modelo-reticulacion-de-rodilla",
+    "name": "Modelo Reticulación de Rodilla",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/modelo-reticulacion-de-rodilla.jpg"
+    ]
+  },
+  {
+    "id": 243,
+    "slug": "modelo-torso-humano-85",
+    "name": "Modelo torso humano 85",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/modelo-torso-humano-85.jpg"
+    ]
+  },
+  {
+    "id": 241,
+    "slug": "modelo-pulmones-transparentes",
+    "name": "Modelo Pulmones transparentes",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/modelo-pulmones-transparentes.jpg"
+    ]
+  },
+  {
+    "id": 239,
+    "slug": "modelo-practicas-de-saturas",
+    "name": "Modelo prácticas de sutura",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/modelo-practicas-de-saturas.jpg"
+    ]
+  },
+  {
+    "id": 237,
+    "slug": "modelo-ojo-humano-gigante",
+    "name": "Modelo ojo humano gigante",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/modelo-ojo-humano-gigante.jpg"
+    ]
+  },
+  {
+    "id": 235,
+    "slug": "modelo-de-pie-normal-plano-y-arqueado",
+    "name": "Modelo de pie normal, plano y arqueado",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/modelo-de-pie-normal-plano-y-arqueado.jpg"
+    ]
+  },
+  {
+    "id": 233,
+    "slug": "modelo-de-corazon-humano-aumentado-4-veces",
+    "name": "Modelo de corazón humano aumentado 4 veces",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/modelo-de-corazon-humano-aumentado-4-veces.jpg"
+    ]
+  },
+  {
+    "id": 231,
+    "slug": "modelo-anatomico-higado",
+    "name": "Modelo Anatómico Hígado",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/modelo-anatomico-higado.jpg"
+    ]
+  },
+  {
+    "id": 229,
+    "slug": "esqueleto-humano-de-180-cm",
+    "name": "Esqueleto Humano de 180 CM",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/esqueleto-humano-de-180-cm.jpg"
+    ]
+  },
+  {
+    "id": 227,
+    "slug": "craneo-humano-tamano-natural",
+    "name": "Cráneo Humano Tamaño Natural",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/craneo-humano-tamano-natural.jpg"
+    ]
+  },
+  {
+    "id": 225,
+    "slug": "corazon-en-tamano-natural-2",
+    "name": "Cráneo humano a color",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/corazon-en-tamano-natural-2.jpg"
+    ]
+  },
+  {
+    "id": 223,
+    "slug": "corazon-en-tamano-natural",
+    "name": "Corazón en tamaño natural",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/corazon-en-tamano-natural.jpg"
+    ]
+  },
+  {
+    "id": 221,
+    "slug": "columna-vertebral-flexible",
+    "name": "Columna Vertebral flexible",
+    "category": "anatomicos",
+    "images": [
+      "/images/productos/columna-vertebral-flexible.jpg"
+    ]
+  },
+  {
+    "id": 219,
+    "slug": "vitrina-medicamentos",
+    "name": "Vitrina medicamentos",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/vitrina-medicamentos.jpg"
+    ]
+  },
+  {
+    "id": 217,
+    "slug": "taburete",
+    "name": "Taburete",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/taburete.jpg"
+    ]
+  },
+  {
+    "id": 215,
+    "slug": "silla-toma-muestras-xon-gaveta",
+    "name": "Silla toma muestras con gaveta",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/silla-toma-muestras-xon-gaveta.jpg"
+    ]
+  },
+  {
+    "id": 213,
+    "slug": "mesa-rinonera",
+    "name": "Mesa Riñonera",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/mesa-rinonera.jpg"
+    ]
+  },
+  {
+    "id": 211,
+    "slug": "mesa-pediatrica",
+    "name": "Mesa pediátrica",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/mesa-pediatrica.jpg"
+    ]
+  },
+  {
+    "id": 209,
+    "slug": "mesa-mayo",
+    "name": "Mesa Mayo",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/mesa-mayo.jpg"
+    ]
+  },
+  {
+    "id": 207,
+    "slug": "mesa-auxiliar-2",
+    "name": "Mesa Auxiliar",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/mesa-auxiliar-2.jpg"
+    ]
+  },
+  {
+    "id": 205,
+    "slug": "mesa-auxiliar",
+    "name": "Mesa Auxiliar",
+    "category": "mobiliario",
+    "images": []
+  },
+  {
+    "id": 203,
+    "slug": "gradilla-de-escalon",
+    "name": "Gradilla de Escalón",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/gradilla-de-escalon.jpg"
+    ]
+  },
+  {
+    "id": 201,
+    "slug": "coche-de-paro",
+    "name": "Coche de paro",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/coche-de-paro.jpg"
+    ]
+  },
+  {
+    "id": 199,
+    "slug": "camilla-hidraulica",
+    "name": "Camilla Hidráulica",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/camilla-hidraulica.jpg"
+    ]
+  },
+  {
+    "id": 197,
+    "slug": "camilla-ginecologica",
+    "name": "Camilla ginecológica",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/camilla-ginecologica.jpg"
+    ]
+  },
+  {
+    "id": 195,
+    "slug": "camilla-de-examinacion",
+    "name": "Camilla de examinación",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/camilla-de-examinacion.jpg"
+    ]
+  },
+  {
+    "id": 193,
+    "slug": "biombo-de-3-cuerpos",
+    "name": "Biombo de 3 cuerpos",
+    "category": "mobiliario",
+    "images": [
+      "/images/productos/biombo-de-3-cuerpos.jpg"
+    ]
+  },
+  {
+    "id": 191,
+    "slug": "torundero",
+    "name": "Torundero",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/torundero.jpg"
+    ]
+  },
+  {
+    "id": 189,
+    "slug": "tijera-mayo",
+    "name": "Tijera mayo",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/tijera-mayo.jpg"
+    ]
+  },
+  {
+    "id": 187,
+    "slug": "tijera-corta-todo",
+    "name": "Tijera Corta Todo",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/tijera-corta-todo.jpg"
+    ]
+  },
+  {
+    "id": 185,
+    "slug": "separador-farabeuf",
+    "name": "Separador Farabeuf",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/separador-farabeuf.jpg"
+    ]
+  },
+  {
+    "id": 183,
+    "slug": "rinonera",
+    "name": "Riñonera",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/rinonera.jpg"
+    ]
+  },
+  {
+    "id": 181,
+    "slug": "pinza-pozzi",
+    "name": "Pinza Pozzi",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/pinza-pozzi.jpg"
+    ]
+  },
+  {
+    "id": 179,
+    "slug": "pinza-de-aro",
+    "name": "Pinza de Aro",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/pinza-de-aro.jpg"
+    ]
+  },
+  {
+    "id": 177,
+    "slug": "pinza-backhaus",
+    "name": "Pinza Backhaus",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/pinza-backhaus.jpg"
+    ]
+  },
+  {
+    "id": 175,
+    "slug": "pinza-anatomica",
+    "name": "Pinza anatómica",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/pinza-anatomica.jpg"
+    ]
+  },
+  {
+    "id": 173,
+    "slug": "mechero-de-alcohol",
+    "name": "Mechero de alcohol",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/mechero-de-alcohol.jpg"
+    ]
+  },
+  {
+    "id": 171,
+    "slug": "mango-de-bisturi",
+    "name": "Mango de bisturí",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/mango-de-bisturi.jpg"
+    ]
+  },
+  {
+    "id": 169,
+    "slug": "especulo-vaginal",
+    "name": "Espéculo vaginal",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/especulo-vaginal.jpg"
+    ]
+  },
+  {
+    "id": 167,
+    "slug": "diapason",
+    "name": "Diapasón",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/diapason.jpg"
+    ]
+  },
+  {
+    "id": 165,
+    "slug": "bandeja-instrumental",
+    "name": "Bandeja Instrumental",
+    "category": "instrumental-quirurgico",
+    "images": [
+      "/images/productos/bandeja-instrumental.jpg"
+    ]
+  },
+  {
+    "id": 161,
+    "slug": "tensiometro-reloj-con-pedestal-rodante",
+    "name": "Tensiómetro Reloj con Pedestal Rodante",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/tensiometro-reloj-con-pedestal-rodante.jpg"
+    ]
+  },
+  {
+    "id": 159,
+    "slug": "oximetro-neonatal-modelo-cms60c-marca-contec",
+    "name": "Oxímetro Neonatal Modelo CMS60C Marca CONTEC",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/oximetro-neonatal-modelo-cms60c-marca-contec.jpg"
+    ]
+  },
+  {
+    "id": 157,
+    "slug": "negatoscopio",
+    "name": "Negatoscopio",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/negatoscopio.jpg"
+    ]
+  },
+  {
+    "id": 155,
+    "slug": "nebulizador-adulto",
+    "name": "Nebulizador Adulto",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/nebulizador-adulto.jpg"
+    ]
+  },
+  {
+    "id": 153,
+    "slug": "monitor-multiparametros",
+    "name": "Monitor Multiparámetros",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/monitor-multiparametros.jpg"
+    ]
+  },
+  {
+    "id": 151,
+    "slug": "lampara-rodante-luz-led",
+    "name": "Lámpara rodante luz LED",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/lampara-rodante-luz-led.jpg"
+    ]
+  },
+  {
+    "id": 149,
+    "slug": "lampara-cielitica-doble-cupula-luz-led",
+    "name": "Lámpara cialítica doble cúpula luz LED",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/lampara-cielitica-doble-cupula-luz-led.jpg"
+    ]
+  },
+  {
+    "id": 147,
+    "slug": "esterilizador-uv",
+    "name": "Esterilizador UV",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/esterilizador-uv.jpg"
+    ]
+  },
+  {
+    "id": 145,
+    "slug": "esterilizador-en-seco-12l-maraca-ovens",
+    "name": "Esterilizador en seco 12 L marca OVENS",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/esterilizador-en-seco-12l-maraca-ovens.jpg"
+    ]
+  },
+  {
+    "id": 142,
+    "slug": "electrocauterio-bovie-c",
+    "name": "Electrocauterio Bovie",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/electrocauterio-bovie-c.jpg",
+      "/images/productos/electrocauterio-bovie-c-2.jpg"
+    ]
+  },
+  {
+    "id": 140,
+    "slug": "electrocardiografo-digital",
+    "name": "Electrocardiógrafo Digital",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/electrocardiografo-digital.jpg"
+    ]
+  },
+  {
+    "id": 138,
+    "slug": "desfibrilador-externo-automatico",
+    "name": "Desfibrilador Externo Automático",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/desfibrilador-externo-automatico.jpg"
+    ]
+  },
+  {
+    "id": 135,
+    "slug": "concentrador-de-oxigeno-10litros-marca-yuwell-categoria-equipo-medico",
+    "name": "Concentrador de oxígeno 10 L marca Yuwell",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/concentrador-de-oxigeno-10litros-marca-yuwell-categoria-equipo-medico.jpg"
+    ]
+  },
+  {
+    "id": 133,
+    "slug": "colposcopio",
+    "name": "Colposcopio",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/colposcopio.jpg"
+    ]
+  },
+  {
+    "id": 131,
+    "slug": "centrifuga",
+    "name": "Centrífuga",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/centrifuga.jpg"
+    ]
+  },
+  {
+    "id": 129,
+    "slug": "bomba-succion-pequeno",
+    "name": "Bomba de succión pequeña",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/bomba-succion-pequeno.jpg"
+    ]
+  },
+  {
+    "id": 127,
+    "slug": "balanza-digital-con-tallimetro",
+    "name": "Balanza digital con tallimetro",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/balanza-digital-con-tallimetro.jpg"
+    ]
+  },
+  {
+    "id": 125,
+    "slug": "autoclave-digital",
+    "name": "Autoclave digital",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/autoclave-digital.jpg"
+    ]
+  },
+  {
+    "id": 123,
+    "slug": "mesa-quirurgica",
+    "name": "Mesa Quirúrgica",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/mesa-quirurgica.jpg"
+    ]
+  },
+  {
+    "id": 113,
+    "slug": "caminador",
+    "name": "Caminador",
+    "category": "equipos-medicos",
+    "images": [
+      "/images/productos/caminador.jpg"
+    ]
+  }
+]

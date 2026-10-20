@@ -1,0 +1,96 @@
+// Catálogos PDF publicados en /public/catalogos. Para agregar uno nuevo, copia el PDF ahí y suma una entrada.
+export interface Catalogo {
+  slug: string
+  title: string
+  description: string
+  img: string
+  pdf: string
+  size: string
+  group: 'Equipamiento' | 'Insumos' | 'Especialidades'
+  featured?: boolean
+}
+
+export const catalogos: Catalogo[] = [
+  {
+    slug: 'quirofano-2025',
+    title: 'Quirófano 2025',
+    description: 'Nuestro catálogo más completo de equipos médicos para quirófano y áreas críticas.',
+    img: '/images/catalogo/equipos-medicos.jpg',
+    pdf: '/catalogos/quirofano-2025.pdf',
+    size: '9.4 MB',
+    group: 'Equipamiento',
+    featured: true
+  },
+  {
+    slug: 'mobiliario-medico',
+    title: 'Mobiliario médico',
+    description: 'Camillas, mesas, portasueros y mobiliario hospitalario.',
+    img: '/images/catalogo/mobiliario-medicos.jpg',
+    pdf: '/catalogos/mobiliario-medico.pdf',
+    size: '593 KB',
+    group: 'Equipamiento'
+  },
+  {
+    slug: 'instrumental',
+    title: 'Instrumental quirúrgico',
+    description: 'Instrumental de precisión para cada especialidad.',
+    img: '/images/catalogo/instrumental-quirurgico.jpg',
+    pdf: '/catalogos/instrumental.pdf',
+    size: '372 KB',
+    group: 'Equipamiento'
+  },
+  {
+    slug: 'rehabilitacion',
+    title: 'Rehabilitación y ortopedia',
+    description: 'Productos ortopédicos y de apoyo para la rehabilitación.',
+    img: '/images/catalogo/rehabilitacion-y-ortopedia.jpg',
+    pdf: '/catalogos/rehabilitacion-y-ortopedicos.pdf',
+    size: '1 MB',
+    group: 'Especialidades'
+  },
+  {
+    slug: 'oxigenoterapia',
+    title: 'Oxigenoterapia',
+    description: 'Equipos y accesorios para terapia respiratoria.',
+    img: '/images/catalogo/oxigenoterapia.jpg',
+    pdf: '/catalogos/oxigenoterapia.pdf',
+    size: '525 KB',
+    group: 'Especialidades'
+  },
+  {
+    slug: 'modelos-anatomicos',
+    title: 'Modelos anatómicos',
+    description: 'Modelos para docencia, consulta y capacitación.',
+    img: '/images/catalogo/modelos-anatomicos.jpg',
+    pdf: '/catalogos/modelos-anatomicos.pdf',
+    size: '251 KB',
+    group: 'Especialidades'
+  },
+  {
+    slug: 'insumos-medicos',
+    title: 'Insumos médicos',
+    description: 'Insumos de uso diario para consultorios y hospitales.',
+    img: '/images/catalogo/insumos-medicos.jpg',
+    pdf: '/catalogos/insumos-medicos.pdf',
+    size: '454 KB',
+    group: 'Insumos'
+  },
+  {
+    slug: 'descartables',
+    title: 'Descartables',
+    description: 'Insumos de un solo uso para una atención segura.',
+    img: '/images/catalogo/descartables.jpg',
+    pdf: '/catalogos/descartables.pdf',
+    size: '247 KB',
+    group: 'Insumos'
+  },
+  {
+    slug: 'antisepticos',
+    title: 'Antisépticos y limpieza',
+    description: 'Soluciones de desinfección y limpieza clínica.',
+    img: '/images/catalogo/antisepticos.jpg',
+    pdf: '/catalogos/antisepticos-y-limpieza.pdf',
+    size: '618 KB',
+    group: 'Insumos'
+  }
+]
