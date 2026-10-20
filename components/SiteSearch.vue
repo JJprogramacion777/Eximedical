@@ -5,11 +5,12 @@ const query = ref('')
 const input = ref<HTMLInputElement>()
 const active = ref(0)
 const router = useRouter()
+const { productos } = useShop()
 
 const results = computed(() => {
   const q = normalizar(query.value.trim())
   if (!q) return []
-  return productos.filter(p => normalizar(p.name).includes(q)).slice(0, 7)
+  return productos.value.filter(p => normalizar(p.name).includes(q)).slice(0, 7)
 })
 
 const cats = computed(() => {

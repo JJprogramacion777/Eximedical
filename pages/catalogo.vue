@@ -9,8 +9,9 @@ useSeoMeta({
   ogImage: '/images/catalogo/equipos-medicos.jpg'
 })
 
-const featured = catalogos.find(c => c.featured)!
-const rest = catalogos.filter(c => !c.featured)
+const { catalogos } = useShop()
+const featured = computed(() => catalogos.value.find(c => c.featured) ?? catalogos.value[0])
+const rest = computed(() => catalogos.value.filter(c => c !== featured.value))
 
 const viewing = ref<Catalogo | null>(null)
 
@@ -31,7 +32,7 @@ const open = (item: Catalogo) => {
       image="/images/catalogo/instrumental-quirurgico.jpg"
       image-position="center 40%"
     />
-    <CatalogFeatured :item="featured" @open="open" />
+    <CatalogFeatured v-if="featured" :item="featured" @open="open" />
     <CatalogGrid :items="rest" @open="open" />
     <HomeCta />
     <CatalogViewer v-model="viewing" />

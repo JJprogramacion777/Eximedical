@@ -13,6 +13,7 @@ export const useQuote = () => {
   const items = useState<QuoteItem[]>('quote-items', () => [])
   const open = useState('quote-open', () => false)
   const bump = useState('quote-bump', () => 0)
+  const { getProducto } = useShop()
 
   const count = computed(() => items.value.reduce((n, i) => n + i.qty, 0))
 
@@ -62,6 +63,7 @@ export const useQuote = () => {
 /** Carga y guarda la lista en localStorage (solo en el navegador) */
 export const persistQuote = () => {
   const { items } = useQuote()
+  const { getProducto } = useShop()
   try {
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]')
     if (Array.isArray(saved)) items.value = saved.filter(i => getProducto(i?.slug) && i.qty > 0)

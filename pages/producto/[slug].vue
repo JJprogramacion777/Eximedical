@@ -3,6 +3,7 @@ import type { Producto } from '~/utils/tienda'
 
 const route = useRoute()
 const { site } = useAppConfig()
+const { getProducto, productosDe } = useShop()
 const product = computed(() => getProducto(route.params.slug as string))
 
 if (!product.value) {
@@ -205,6 +206,7 @@ const perks = [
           </div>
           <Transition name="fade" mode="out-in">
             <div v-if="tab === 'desc'" key="desc" class="tab-panel">
+              <p v-if="p.description" class="custom-desc">{{ p.description }}</p>
               <p>
                 <strong>{{ p.name }}</strong> forma parte de nuestra línea de <strong>{{ category.name.toLowerCase() }}</strong>:
                 {{ category.description.toLowerCase() }}
@@ -626,6 +628,11 @@ h1 {
   display: grid;
   gap: 12px;
   max-width: 820px;
+}
+
+.custom-desc {
+  white-space: pre-line;
+  color: var(--ink);
 }
 
 .tab-panel strong {

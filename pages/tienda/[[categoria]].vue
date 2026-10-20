@@ -10,6 +10,7 @@ definePageMeta({
 
 const route = useRoute()
 const router = useRouter()
+const { productos, productosDe } = useShop()
 
 const slug = computed(() => (route.params.categoria as string | undefined) || undefined)
 const category = computed(() => getCategoria(slug.value))
@@ -43,14 +44,15 @@ watch(() => route.query.q, (v) => {
 
 const filtered = computed(() => {
   const q = normalizar(query.value.trim())
-  let list = productos.filter(p =>
+  let list = productos.value.filter(p =>
     (!slug.value || p.category === slug.value)
     && (!q || normalizar(p.name).includes(q))
   )
-  // "Destacados": primero equipos médicos, luego el resto de categorías en su orden
+  // "Destacados": primero los marcados como destacados en el panel, luego por categoría
   if (sort.value === 'destacados') {
     const order = categorias.map(c => c.slug)
-    list = [...list].sort((a, b) => order.indexOf(a.category) - order.indexOf(b.category))
+    list = [...list].sort((a, b) =>
+      Number(!!b.featured) - Number(!!a.featured) || order.indexOf(a.category) - order.indexOf(b.category))
   }
   if (sort.value === 'az') list = [...list].sort((a, b) => a.name.localeCompare(b.name, 'es'))
   if (sort.value === 'za') list = [...list].sort((a, b) => b.name.localeCompare(a.name, 'es'))
@@ -81,7 +83,7 @@ watch(slug, () => {
   if (window.scrollY > top) window.scrollTo({ top, behavior: 'smooth' })
 })
 
-const countFor = (s?: string) => (s ? productosDe(s).length : productos.length)
+const countFor = (s?: string) => (s ? productosDe(s).length : productos.value.length)
 const quick = ref<Producto | null>(null)
 
 const steps = [

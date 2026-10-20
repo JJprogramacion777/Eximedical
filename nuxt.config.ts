@@ -5,6 +5,19 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  // Configuración privada del servidor (se lee de .env; nunca llega al navegador)
+  runtimeConfig: {
+    databaseUrl: '', // NUXT_DATABASE_URL o DATABASE_URL
+    sessionPassword: '', // NUXT_SESSION_PASSWORD
+    uploadsDir: './storage/uploads' // NUXT_UPLOADS_DIR
+  },
+
+  // El panel de administración funciona solo en el navegador (no se indexa ni se renderiza en el servidor)
+  routeRules: {
+    '/admin/**': { ssr: false, headers: { 'X-Robots-Tag': 'noindex, nofollow' } },
+    '/admin': { ssr: false, headers: { 'X-Robots-Tag': 'noindex, nofollow' } }
+  },
+
   app: {
     head: {
       htmlAttrs: { lang: 'es' },

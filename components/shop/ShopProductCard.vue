@@ -11,7 +11,10 @@ const added = ref(false)
 let timer: ReturnType<typeof setTimeout> | undefined
 
 const category = computed(() => getCategoria(props.product.category))
-const inQuote = computed(() => quote.has(props.product.slug))
+// La lista vive en el navegador: la etiqueta se muestra solo después de montar (evita diferencias con el HTML del servidor)
+const mounted = ref(false)
+onMounted(() => (mounted.value = true))
+const inQuote = computed(() => mounted.value && quote.has(props.product.slug))
 
 const addToQuote = () => {
   quote.add(props.product.slug)

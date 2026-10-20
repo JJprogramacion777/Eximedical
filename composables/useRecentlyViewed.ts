@@ -3,6 +3,7 @@ const KEY = 'eximedical-vistos'
 
 export const useRecentlyViewed = () => {
   const slugs = useState<string[]>('recently-viewed', () => [])
+  const { getProducto } = useShop()
 
   const load = () => {
     try {

@@ -1,13 +1,17 @@
-// Productos importados de la tienda WooCommerce anterior (data/productos.json).
-// Para agregar un producto: suma una entrada al JSON y su imagen en /public/images/productos.
+// Categorías de la tienda y tipos de producto.
+// Los productos se administran desde /admin (PostgreSQL). data/productos.json queda como respaldo y carga inicial.
 import productosJson from '~/data/productos.json'
 
 export interface Producto {
-  id: number
+  id?: number
   slug: string
   name: string
   category: string
   images: string[]
+  description?: string
+  active?: boolean
+  featured?: boolean
+  sort?: number
 }
 
 export interface Categoria {
@@ -56,13 +60,16 @@ export const categorias: Categoria[] = [
   }
 ]
 
-export const productos: Producto[] = productosJson
+/** Datos locales de respaldo (se usan si la base de datos no responde) */
+export const productosLocales: Producto[] = productosJson
 
 export const getCategoria = (slug?: string) => categorias.find(c => c.slug === slug)
-export const getProducto = (slug?: string) => productos.find(p => p.slug === slug)
-export const productosDe = (slug: string) => productos.filter(p => p.category === slug)
 
 /** Búsqueda sin distinguir tildes ni mayúsculas */
 export const normalizar = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
-export const imagenDe = (p: Producto) => p.images[0] ?? '/images/icono.png'
+/** "Camilla Hidráulica 2" → "camilla-hidraulica-2" */
+export const slugify = (s: string) =>
+  normalizar(s).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80)
+
+export const imagenDe =(p: Producto) => p.images[0] ?? '/images/icono.png'
